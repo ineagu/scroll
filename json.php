@@ -38,7 +38,7 @@ print json_encode($row1);
 //echo $q;
 }
 $result = mysql_query($q);
-$rows = array();
+$rows = array(); 
 //$a = sort_posts_by_color("FFFFCC",$variance,$minimum);
 if ( !isset($_POST[celmaiieftin])) {
 while($r = mysql_fetch_assoc($result)) {
